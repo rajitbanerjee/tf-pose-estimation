@@ -87,6 +87,6 @@ if __name__ == '__main__':
         plt.colorbar()
         plt.show()
     except Exception as e:
-        logger.warning('matplitlib error, %s' % e)
+        logger.warning('matplotlib error, %s' % e)
         cv2.imshow('result', image)
         cv2.waitKey()
